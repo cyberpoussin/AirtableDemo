@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84794D57262DA21C00E89935 /* PromoAvrilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D56262DA21C00E89935 /* PromoAvrilApp.swift */; };
+		84244426263C37C00079911D /* DateFormatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84244425263C37C00079911D /* DateFormatted.swift */; };
+		8424442C264160B70079911D /* ASUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424442B264160B70079911D /* ASUser.swift */; };
+		8424442F264162F50079911D /* ASUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424442E264162F50079911D /* ASUserView.swift */; };
+		8424443226418DF10079911D /* ASUserMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424443126418DF10079911D /* ASUserMainView.swift */; };
+		84794D57262DA21C00E89935 /* AirtableDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D56262DA21C00E89935 /* AirtableDemoApp.swift */; };
 		84794D59262DA21C00E89935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D58262DA21C00E89935 /* ContentView.swift */; };
 		84794D5B262DA21E00E89935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84794D5A262DA21E00E89935 /* Assets.xcassets */; };
 		84794D5E262DA21E00E89935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84794D5D262DA21E00E89935 /* Preview Assets.xcassets */; };
+		84F573732631956D000E60CF /* CustomerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F573722631956C000E60CF /* CustomerForm.swift */; };
+		84F5737826319EC9000E60CF /* GeometryAndInfinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5737726319EC9000E60CF /* GeometryAndInfinity.swift */; };
+		84F573822638723A000E60CF /* GrapheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F573812638723A000E60CF /* GrapheView.swift */; };
+		84F573882639403A000E60CF /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5738726394039000E60CF /* CircleAnimationView.swift */; };
+		84F57392263988F3000E60CF /* AnimationExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F57391263988F3000E60CF /* AnimationExamples.swift */; };
+		84F573952639B3ED000E60CF /* DemoDragRelocateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F573942639B3ED000E60CF /* DemoDragRelocateView.swift */; };
+		84F573982639CCB3000E60CF /* BurgerAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F573972639CCB2000E60CF /* BurgerAppModel.swift */; };
+		84F5739B2639D040000E60CF /* BurgerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5739A2639D040000E60CF /* BurgerService.swift */; };
+		84F5739E263B0584000E60CF /* BurgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5739D263B0584000E60CF /* BurgerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84794D53262DA21C00E89935 /* PromoAvril.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromoAvril.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84794D56262DA21C00E89935 /* PromoAvrilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoAvrilApp.swift; sourceTree = "<group>"; };
+		84244425263C37C00079911D /* DateFormatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatted.swift; sourceTree = "<group>"; };
+		8424442B264160B70079911D /* ASUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUser.swift; sourceTree = "<group>"; };
+		8424442E264162F50079911D /* ASUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUserView.swift; sourceTree = "<group>"; };
+		8424443126418DF10079911D /* ASUserMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUserMainView.swift; sourceTree = "<group>"; };
+		84794D53262DA21C00E89935 /* AirtableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84794D56262DA21C00E89935 /* AirtableDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableDemoApp.swift; sourceTree = "<group>"; };
 		84794D58262DA21C00E89935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84794D5A262DA21E00E89935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84794D5D262DA21E00E89935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84794D5F262DA21E00E89935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F573722631956C000E60CF /* CustomerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerForm.swift; sourceTree = "<group>"; };
+		84F5737726319EC9000E60CF /* GeometryAndInfinity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryAndInfinity.swift; sourceTree = "<group>"; };
+		84F573812638723A000E60CF /* GrapheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapheView.swift; sourceTree = "<group>"; };
+		84F5738726394039000E60CF /* CircleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimationView.swift; sourceTree = "<group>"; };
+		84F57391263988F3000E60CF /* AnimationExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExamples.swift; sourceTree = "<group>"; };
+		84F573942639B3ED000E60CF /* DemoDragRelocateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDragRelocateView.swift; sourceTree = "<group>"; };
+		84F573972639CCB2000E60CF /* BurgerAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerAppModel.swift; sourceTree = "<group>"; };
+		84F5739A2639D040000E60CF /* BurgerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerService.swift; sourceTree = "<group>"; };
+		84F5739D263B0584000E60CF /* BurgerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,10 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8424442A2641606C0079911D /* AppStorageTest */ = {
+			isa = PBXGroup;
+			children = (
+				8424442B264160B70079911D /* ASUser.swift */,
+				8424442E264162F50079911D /* ASUserView.swift */,
+				8424443126418DF10079911D /* ASUserMainView.swift */,
+			);
+			path = AppStorageTest;
+			sourceTree = "<group>";
+		};
 		84794D4A262DA21C00E89935 = {
 			isa = PBXGroup;
 			children = (
-				84794D55262DA21C00E89935 /* PromoAvril */,
+				84794D55262DA21C00E89935 /* AirtableDemo */,
 				84794D54262DA21C00E89935 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +80,25 @@
 		84794D54262DA21C00E89935 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84794D53262DA21C00E89935 /* PromoAvril.app */,
+				84794D53262DA21C00E89935 /* AirtableDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84794D55262DA21C00E89935 /* PromoAvril */ = {
+		84794D55262DA21C00E89935 /* AirtableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84794D56262DA21C00E89935 /* PromoAvrilApp.swift */,
+				84244425263C37C00079911D /* DateFormatted.swift */,
+				84794D56262DA21C00E89935 /* AirtableDemoApp.swift */,
 				84794D58262DA21C00E89935 /* ContentView.swift */,
+				8493BF2D264ABD3400CF131C /* PathsAndAnimations */,
+				8424442A2641606C0079911D /* AppStorageTest */,
+				84F5737526319EB9000E60CF /* ExerciceVendredi */,
 				84794D5A262DA21E00E89935 /* Assets.xcassets */,
 				84794D5F262DA21E00E89935 /* Info.plist */,
 				84794D5C262DA21E00E89935 /* Preview Content */,
 			);
-			path = PromoAvril;
+			path = AirtableDemo;
 			sourceTree = "<group>";
 		};
 		84794D5C262DA21E00E89935 /* Preview Content */ = {
@@ -69,12 +109,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8493BF2D264ABD3400CF131C /* PathsAndAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				84F573812638723A000E60CF /* GrapheView.swift */,
+				84F5738726394039000E60CF /* CircleAnimationView.swift */,
+				84F57391263988F3000E60CF /* AnimationExamples.swift */,
+			);
+			path = PathsAndAnimations;
+			sourceTree = "<group>";
+		};
+		84F5737526319EB9000E60CF /* ExerciceVendredi */ = {
+			isa = PBXGroup;
+			children = (
+				84F573722631956C000E60CF /* CustomerForm.swift */,
+				84F5737726319EC9000E60CF /* GeometryAndInfinity.swift */,
+				84F573942639B3ED000E60CF /* DemoDragRelocateView.swift */,
+				84F573972639CCB2000E60CF /* BurgerAppModel.swift */,
+				84F5739D263B0584000E60CF /* BurgerView.swift */,
+				84F5739A2639D040000E60CF /* BurgerService.swift */,
+			);
+			path = ExerciceVendredi;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84794D52262DA21C00E89935 /* PromoAvril */ = {
+		84794D52262DA21C00E89935 /* AirtableDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84794D62262DA21E00E89935 /* Build configuration list for PBXNativeTarget "PromoAvril" */;
+			buildConfigurationList = 84794D62262DA21E00E89935 /* Build configuration list for PBXNativeTarget "AirtableDemo" */;
 			buildPhases = (
 				84794D4F262DA21C00E89935 /* Sources */,
 				84794D50262DA21C00E89935 /* Frameworks */,
@@ -84,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = PromoAvril;
+			name = AirtableDemo;
 			productName = PromoAvril;
-			productReference = 84794D53262DA21C00E89935 /* PromoAvril.app */;
+			productReference = 84794D53262DA21C00E89935 /* AirtableDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84794D4E262DA21C00E89935 /* Build configuration list for PBXProject "PromoAvril" */;
+			buildConfigurationList = 84794D4E262DA21C00E89935 /* Build configuration list for PBXProject "AirtableDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84794D52262DA21C00E89935 /* PromoAvril */,
+				84794D52262DA21C00E89935 /* AirtableDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +201,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F57392263988F3000E60CF /* AnimationExamples.swift in Sources */,
+				8424443226418DF10079911D /* ASUserMainView.swift in Sources */,
+				84F573882639403A000E60CF /* CircleAnimationView.swift in Sources */,
 				84794D59262DA21C00E89935 /* ContentView.swift in Sources */,
-				84794D57262DA21C00E89935 /* PromoAvrilApp.swift in Sources */,
+				8424442C264160B70079911D /* ASUser.swift in Sources */,
+				84F573982639CCB3000E60CF /* BurgerAppModel.swift in Sources */,
+				84244426263C37C00079911D /* DateFormatted.swift in Sources */,
+				84F5739E263B0584000E60CF /* BurgerView.swift in Sources */,
+				84F5737826319EC9000E60CF /* GeometryAndInfinity.swift in Sources */,
+				84F573732631956D000E60CF /* CustomerForm.swift in Sources */,
+				84794D57262DA21C00E89935 /* AirtableDemoApp.swift in Sources */,
+				84F5739B2639D040000E60CF /* BurgerService.swift in Sources */,
+				84F573822638723A000E60CF /* GrapheView.swift in Sources */,
+				8424442F264162F50079911D /* ASUserView.swift in Sources */,
+				84F573952639B3ED000E60CF /* DemoDragRelocateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +344,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PromoAvril/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AirtableDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 62724PC466;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PromoAvril/Info.plist;
+				INFOPLIST_FILE = AirtableDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdrSim.PromoAvril;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrSim.AirtableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +366,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PromoAvril/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AirtableDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 62724PC466;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PromoAvril/Info.plist;
+				INFOPLIST_FILE = AirtableDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdrSim.PromoAvril;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrSim.AirtableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84794D4E262DA21C00E89935 /* Build configuration list for PBXProject "PromoAvril" */ = {
+		84794D4E262DA21C00E89935 /* Build configuration list for PBXProject "AirtableDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84794D60262DA21E00E89935 /* Debug */,
@@ -318,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84794D62262DA21E00E89935 /* Build configuration list for PBXNativeTarget "PromoAvril" */ = {
+		84794D62262DA21E00E89935 /* Build configuration list for PBXNativeTarget "AirtableDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84794D63262DA21E00E89935 /* Debug */,

@@ -11,7 +11,8 @@ import SwiftUI
 struct PromoAvrilApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DateFormatted()
+                .environment(\.locale, .init(identifier: Locale.preferredLanguages.first ?? Locale.current.identifier))
         }
     }
 }
