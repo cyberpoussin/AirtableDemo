@@ -156,7 +156,7 @@ func handleError(_ error: Error) -> NetworkRequestError {
         }
     }
 
-func fetch<T:Decodable>(request: Endpoint<T>) -> AnyPublisher<T, NetworkRequestError>{
+func fetch<Endpoint: RequestBuilder>(request: Endpoint) -> AnyPublisher<Endpoint.ResponseType, NetworkRequestError>{
     return URLSession.shared.dataTaskPublisher(for: request.url)
         .tryMap {(data, response) -> Data in
             guard let response = response as? HTTPURLResponse else {
@@ -167,7 +167,7 @@ func fetch<T:Decodable>(request: Endpoint<T>) -> AnyPublisher<T, NetworkRequestE
             default: throw httpError(response.statusCode)
             }
         }
-        .decode(type: T.self, decoder: JSONDecoder())
+        .decode(type: Endpoint.ResponseType.self, decoder: JSONDecoder())
         .mapError {
             handleError($0)
         }
@@ -207,16 +207,24 @@ func decode<T: Decodable>(data: Data) -> T? {
     return result
 }
 
-enum Endpoint<ResponseType> {
+
+protocol RequestBuilder {
+    associatedtype ResponseType: Decodable
+    var url: URL {get}
+}
+
+enum Endpoint<T: Decodable>: RequestBuilder {
+    typealias ResponseType = T
+    
     case fetchAllUsers, fetchBurgers(ids: [String])
-    var responseType: Any.Type {
-        switch self {
-        case .fetchAllUsers:
-            return ATResponse<ATUser>.self
-        case .fetchBurgers:
-            return ATResponse<ATBurger>.self
-        }
-    }
+//    var responseType: Any.Type {
+//        switch self {
+//        case .fetchAllUsers:
+//            return ATResponse<ATUser>.self
+//        case .fetchBurgers:
+//            return ATResponse<ATBurger>.self
+//        }
+//    }
     var url: URL {
         var components = URLComponents()
         components.scheme = "https"
@@ -246,7 +254,7 @@ enum Endpoint<ResponseType> {
     }
 }
 
-func stillFetch<T: Decodable>(request: Endpoint<T>, completion: @escaping (T?) -> ()) {
+func stillFetch<Endpoint: RequestBuilder>(request: Endpoint, completion: @escaping (Endpoint.ResponseType?) -> ()) {
     let task = URLSession.shared.dataTask(with: request.url) {data,response,error in
         guard error == nil else {
             print("error : \(String(describing: error))")
@@ -261,7 +269,7 @@ func stillFetch<T: Decodable>(request: Endpoint<T>, completion: @escaping (T?) -
             return
         }
         
-        let result: T? = decode(data: data)
+        let result: Endpoint.ResponseType? = decode(data: data)
         completion(result)
     }
     task.resume()

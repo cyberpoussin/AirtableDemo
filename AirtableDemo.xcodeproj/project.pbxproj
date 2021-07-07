@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8414D7E3268A91C400CA3C8F /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414D7E2268A91C400CA3C8F /* SwiftUIView2.swift */; };
 		84244426263C37C00079911D /* DateFormatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84244425263C37C00079911D /* DateFormatted.swift */; };
 		8424442C264160B70079911D /* ASUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424442B264160B70079911D /* ASUser.swift */; };
 		8424442F264162F50079911D /* ASUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424442E264162F50079911D /* ASUserView.swift */; };
 		8424443226418DF10079911D /* ASUserMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424443126418DF10079911D /* ASUserMainView.swift */; };
+		843ECF992680D6FF00648730 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ECF982680D6FF00648730 /* SwiftUIView.swift */; };
 		84794D57262DA21C00E89935 /* AirtableDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D56262DA21C00E89935 /* AirtableDemoApp.swift */; };
 		84794D59262DA21C00E89935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D58262DA21C00E89935 /* ContentView.swift */; };
 		84794D5B262DA21E00E89935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84794D5A262DA21E00E89935 /* Assets.xcassets */; };
@@ -28,10 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8414D7E2268A91C400CA3C8F /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 		84244425263C37C00079911D /* DateFormatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatted.swift; sourceTree = "<group>"; };
 		8424442B264160B70079911D /* ASUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUser.swift; sourceTree = "<group>"; };
 		8424442E264162F50079911D /* ASUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUserView.swift; sourceTree = "<group>"; };
 		8424443126418DF10079911D /* ASUserMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUserMainView.swift; sourceTree = "<group>"; };
+		843ECF982680D6FF00648730 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		84794D53262DA21C00E89935 /* AirtableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84794D56262DA21C00E89935 /* AirtableDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableDemoApp.swift; sourceTree = "<group>"; };
 		84794D58262DA21C00E89935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 			children = (
 				84F573812638723A000E60CF /* GrapheView.swift */,
 				84F5738726394039000E60CF /* CircleAnimationView.swift */,
+				843ECF982680D6FF00648730 /* SwiftUIView.swift */,
+				8414D7E2268A91C400CA3C8F /* SwiftUIView2.swift */,
 				84F57391263988F3000E60CF /* AnimationExamples.swift */,
 				8493BF32264AE38D00CF131C /* SwiftLogoAnimation.swift */,
 			);
@@ -206,6 +212,7 @@
 			files = (
 				84F57392263988F3000E60CF /* AnimationExamples.swift in Sources */,
 				8493BF33264AE38D00CF131C /* SwiftLogoAnimation.swift in Sources */,
+				843ECF992680D6FF00648730 /* SwiftUIView.swift in Sources */,
 				8424443226418DF10079911D /* ASUserMainView.swift in Sources */,
 				84F573882639403A000E60CF /* CircleAnimationView.swift in Sources */,
 				84794D59262DA21C00E89935 /* ContentView.swift in Sources */,
@@ -220,6 +227,7 @@
 				84F573822638723A000E60CF /* GrapheView.swift in Sources */,
 				8424442F264162F50079911D /* ASUserView.swift in Sources */,
 				84F573952639B3ED000E60CF /* DemoDragRelocateView.swift in Sources */,
+				8414D7E3268A91C400CA3C8F /* SwiftUIView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

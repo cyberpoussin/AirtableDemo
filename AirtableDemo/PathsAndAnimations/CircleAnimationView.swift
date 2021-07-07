@@ -110,7 +110,7 @@ struct CustomCircle: Shape {
 struct CircleAnimationView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Circle2AnimationView()
+            CircleAnimationView()
             BoundingCircle()
         }
     }
