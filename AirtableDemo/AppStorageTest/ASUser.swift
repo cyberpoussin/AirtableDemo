@@ -16,9 +16,6 @@ struct ASPlaces: Codable, Identifiable {
     var longitude: Double
 }
 
-
-
-
 struct ASUser: Codable {
     var name: String
     var firstName: String
